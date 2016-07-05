@@ -64,7 +64,7 @@ public class NumbersFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.word_list, container, false);
 
-        /** TODO: Insert all the code from the NumberActivity’s onCreate() method after the setContentView method call */
+        /** Insert all the code from the NumberActivity’s onCreate() method after the setContentView method call */
 
         mAudioManager = (AudioManager) getActivity().getSystemService(Context.AUDIO_SERVICE);
 
