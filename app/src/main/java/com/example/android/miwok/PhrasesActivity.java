@@ -67,6 +67,9 @@ public class PhrasesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word_list);
 
+        //to navigate up from the screen
+        //getActionBar().setDisplayHomeAsUpEnabled(true);
+
         mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
 
         // Create a list of words
