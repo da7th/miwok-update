@@ -30,4 +30,17 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
+
+    <style name="miwokTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">#FFFFFF</item>
+        <item name="tabBackground">@color/primary_color</item>
+        <item name="tabSelectedTextColor">#FFFFFF</item>
+    </style>
+
+    <style name="MyCustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">#A8A19E</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+
 </resources>
